@@ -32,7 +32,7 @@ document.querySelector(".check").addEventListener("click", function () {
     message = "🥳 Bravo Correct Number";
     highScore += score;
     document.querySelector(".highscore").textContent = highScore;
-    score = 20;
+    score = 30;
   } else if (inputValue < 100) {
     score--;
     message = "Please Write 3 Digit 👌";
@@ -65,3 +65,4 @@ document.querySelector(".again").addEventListener("click", function () {
   console.log("Secret:", guess);
 });
 console.log("Secret:", guess);
+
