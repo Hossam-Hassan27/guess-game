@@ -116,79 +116,45 @@ h1 {
 
 .label-score {
   margin-bottom: 2rem;
-
 }
-/* 📱 شاشات الموبايل */
+/* 📱 الموبايل لحد 768px */
 @media (max-width: 768px) {
-  html {
-    font-size: 50%; /* يقلل حجم الخط العام */
-  }
-
-  body {
-    padding: 1rem;
-  }
-
-  h1 {
-    font-size: 2.5rem;
-    top: 40%;
-  }
-
-  .number {
-    font-size: 4rem;
-    width: 12rem;
-    padding: 2rem 0;
-  }
-
-  .guess {
-    font-size: 3rem;
-    width: 18rem;
-    padding: 1.5rem;
-  }
-
-  .btn {
-    font-size: 1.6rem;
-    padding: 1.2rem 2rem;
-  }
-
-  main {
-    flex-direction: column;
-    justify-content: center;
-    gap: 3rem;
-    text-align: center;
-  }
-
-  .left, .right {
-    width: 100%;
-  }
-
-  .message {
-    margin-bottom: 4rem;
-    font-size: 1.6rem;
-  }
-}
-
-/* 📱 شاشات أصغر (زي 400px أو أقل) */
-@media (max-width: 400px) {
-  html {
-    font-size: 45%;
-  }
-
   h1 {
     font-size: 2rem;
   }
 
   .number {
     font-size: 3rem;
-    width: 10rem;
+    width: 12rem;
+    padding: 2rem 0;
   }
 
   .guess {
-    font-size: 2.5rem;
+    font-size: 2rem;
     width: 15rem;
+    padding: 1.5rem;
   }
 
   .btn {
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+  }
+
+  main {
+    flex-direction: column; /* فوق تحت بدل جنب بعض */
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .left,
+  .right {
+    width: 90%;
+    text-align: center;
+  }
+
+  .message {
+    margin-bottom: 2rem;
     font-size: 1.4rem;
-    padding: 1rem 1.6rem;
   }
 }
+
