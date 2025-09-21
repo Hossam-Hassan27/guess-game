@@ -54,7 +54,7 @@ document.querySelector(".check").addEventListener("click", function () {
 
 
 document.querySelector(".again").addEventListener("click", function () {
-  score = 20;
+  score = 30;
   document.querySelector(".score").textContent = score;
   body.style.backgroundColor = "#222";
   message = "Start guessing...";
@@ -65,4 +65,5 @@ document.querySelector(".again").addEventListener("click", function () {
   console.log("Secret:", guess);
 });
 console.log("Secret:", guess);
+
 
