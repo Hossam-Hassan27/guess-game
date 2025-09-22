@@ -10,6 +10,7 @@ document.querySelector(".check").addEventListener("click", function () {
     message = "Game Over😒";
     body.style.backgroundColor = "red";
     score = 0;
+    document.querySelector(".number").textContent = guess;
     document.querySelector(".score").textContent = score;
     document.querySelector(".message").textContent = message;
     return;
@@ -66,6 +67,7 @@ document.querySelector(".again").addEventListener("click", function () {
   console.log("Secret:", guess);
 });
 console.log("Secret:", guess);
+
 
 
 
