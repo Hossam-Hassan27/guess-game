@@ -33,6 +33,7 @@ document.querySelector(".check").addEventListener("click", function () {
     highScore += score;
     document.querySelector(".highscore").textContent = highScore;
     score = 30;
+    document.querySelector(".check").disabled = true; //to prevent the button
   } else if (inputValue < 100) {
     score--;
     message = "Please Write 3 Digit 👌";
@@ -65,5 +66,6 @@ document.querySelector(".again").addEventListener("click", function () {
   console.log("Secret:", guess);
 });
 console.log("Secret:", guess);
+
 
 
